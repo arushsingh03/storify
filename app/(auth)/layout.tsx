@@ -7,7 +7,7 @@ const layout = ({ children }: { children: React.ReactNode }) => {
       <section className="bg-brand p-10 hidden w-1/2 items-center justify-center lg:flex xl:w-2/5">
         <div className="flex max-h-[800px] max-w-[430px] flex-col justify-center space-y-12">
           <Image
-            src="/assets/images/logoprompt.png"
+            src="/assets/icons/logo-full.svg"
             alt="logo"
             width={224}
             height={82}
@@ -27,7 +27,7 @@ const layout = ({ children }: { children: React.ReactNode }) => {
             alt="files"
             width={342}
             height={342}
-            className="transition-all hover:rotate-2 hover:scale-105"
+            className="transition-transform hover:scale-90"
           />
         </div>
       </section>
